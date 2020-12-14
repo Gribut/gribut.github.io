@@ -17,8 +17,6 @@
 
 .card {
     border-radius: 5px;
-   max-width: 350px;
-   min-width: 240px;
 }
 
 .card:hover{
@@ -74,3 +72,20 @@ input:checked + label{
     display: none;    
 }
 
+.card{
+   max-width: 350px;
+   min-width: 240px;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+}
+
+.icons{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background: white;
+    margin: 5px;
+}
