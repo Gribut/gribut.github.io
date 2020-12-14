@@ -17,6 +17,8 @@
 
 .card {
     border-radius: 5px;
+   max-width: 350px;
+   min-width: 240px;
 }
 
 .card:hover{
@@ -71,7 +73,4 @@ input:checked + label{
 .form-check-input{
     display: none;    
 }
-.card{
-   max-width: 350px;
-   min-width: 240px;
-}
+
