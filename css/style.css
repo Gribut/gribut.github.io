@@ -1,0 +1,73 @@
+@font-face {
+    font-family: GothaProLig;
+    src: url('fonts/GothamCyrillic/GothaProLig.otf');
+ }
+
+ .p-0{
+    padding: 0px;
+}
+
+.carousel-inner{
+    max-height: 300px;
+}
+
+.container{
+    font-family: GothaProLig;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.card:hover{
+    border-color: white;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.5);
+    transform: translateY(-7px);
+}
+.past{
+    opacity: 0.7;
+}
+
+.card-title{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: ease-in-out 0.3s;
+    color: white;
+    font-size: larger;
+    font: bold;
+    width: 100%;
+    text-align: center;
+}   
+#exampleInputMessage{
+    height: 70px;
+}
+
+.form-check{
+    border-color: black;
+    border: 2px;
+    background-color: rgb(224, 224, 227);
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form-check:hover{
+    background-color: rgb(179, 178, 178);
+    color: white;
+}
+
+input:checked + label{
+    font-weight: bold;
+    color: rgb(0, 0, 119);
+    border: 5px;
+}
+
+.form-check-label{
+    cursor: pointer;
+}
+
+.form-check-input{
+    display: none;    
+}
