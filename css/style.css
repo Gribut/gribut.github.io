@@ -71,3 +71,7 @@ input:checked + label{
 .form-check-input{
     display: none;    
 }
+.card{
+   max-width: 350px;
+   min-width: 240px;
+}
